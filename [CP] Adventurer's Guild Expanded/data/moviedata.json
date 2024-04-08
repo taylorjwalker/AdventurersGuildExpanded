@@ -1,50 +1,47 @@
 {
-"Changes": [
-	
-//ConcessionTastes        
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "Zinnia": {
+          "Name": "Zinnia",
+          "LovedTags": ["Star Cookie", "Jasmine Tea"],
+          "LikedTags": ["Sweet", "Healthy"],
+          "DislikedTags": ["Joja", "Sour Slimes"]
+        },
+        "Gabriel": {
+          "Name": "Gabriel",
+          "LovedTags": ["Rock Candy", "Popcorn"],
+          "LikedTags": ["Salty", "Healthy"],
+          "DislikedTags": ["Joja", "Candy", "Salted Peanuts"]
+        },
+        "Silly": {
+          "Name": "Silly",
+          "LovedTags": ["Rock Candy", "Stardrop Sorbet"],
+          "LikedTags": ["Apple Slices"],
+          "DislikedTags": [
+            "Sweet",
+            "Sour",
+            "Salty",
+            "Fatty",
+            "Joja",
+            "Healthy",
+            "Gourmet",
+            "Hot",
+            "Candy"
+          ]
+        }
+      }
+    },
 
-	
-	//Available General Tags:  Sweet, Sour, Salty, Fatty, Joja, Healthy, Gourmet, Hot, Candy
-	{	
-	"Action": "EditData",
-	"Target": "Data/ConcessionTastes",
-	"Entries": {
-	
-		"Zinnia": {
-			"Name": "Zinnia",
-			"LovedTags": [ "Star Cookie", "Jasmine Tea" ],
-			"LikedTags": [ "Sweet", "Healthy" ],
-			"DislikedTags": [ "Joja", "Sour Slimes",]
-			},
-		"Gabriel": {
-			"Name": "Gabriel",
-			"LovedTags": [ "Rock Candy", "Popcorn" ],
-			"LikedTags": [ "Salty", "Healthy" ],
-			"DislikedTags": [ "Joja", "Candy", "Salted Peanuts"]
-			},
-		"Silly": {
-			"Name": "Silly",
-			"LovedTags": [ "Rock Candy", "Stardrop Sorbet" ],
-			"LikedTags": [ "Apple Slices"],
-			"DislikedTags": [ "Sweet", "Sour", "Salty", "Fatty", "Joja", "Healthy", "Gourmet", "Hot", "Candy"]
-			},
-		},
-	},
-//-----------------------
-//Movie Reactions        
-//-----------------------
-	
     {
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
       "Entries": {
-	  
-	//*******ZINNIA**********
         "Zinnia": {
           "NPCName": "Zinnia",
           "Reactions": [
-
-            //Brave Little Sapling (ANIMATED) (FAMILY) (COMEDY)
             {
               "Tag": "spring_movie_0",
               "Response": "love",
@@ -69,7 +66,6 @@
               "ID": "reaction_0"
             },
 
-	    //Journey of the Praire King (VIDEOGAME)
             {
               "Tag": "summer_movie_0",
               "Response": "like",
@@ -94,7 +90,6 @@
               "ID": "reaction_1"
             },
 
-	     //Mysterium (MINDMESS) (MYSTERY)
             {
               "Tag": "fall_movie_0",
               "Response": "dislike",
@@ -119,7 +114,6 @@
               "ID": "reaction_2"
             },
 
-	     //Miracle at Coldstar Ranch (WHOLESOME) (TEAR JERKER) (FAMILY)
             {
               "Tag": "winter_movie_0",
               "Response": "like",
@@ -144,7 +138,6 @@
               "ID": "reaction_3"
             },
 
-	    //Natural Wonders: Exploring Our Vibrant World (TOUR) (EDUCATIONAL)
             {
               "Tag": "spring_movie_1",
               "Response": "like",
@@ -169,7 +162,6 @@
               "ID": "reaction_4"
             },
 
-	    //Wumbus (SCI-FI) (COMEDY)
             {
               "Tag": "summer_movie_1",
               "Response": "love",
@@ -194,7 +186,6 @@
               "ID": "reaction_5"
             },
 
-	    //Howls in the Rain (HORROR)
             {
               "Tag": "fall_movie_1",
               "Response": "dislike",
@@ -219,7 +210,6 @@
               "ID": "reaction_6"
             },
 
-	//Zuzu City Express (CLASSIC) (ROMANCE)
             {
               "Tag": "winter_movie_1",
               "Response": "like",
@@ -243,17 +233,12 @@
               },
               "ID": "reaction_7"
             }
-		
           ]
         },
-
-	//*******GABRIEL**********
 
         "Gabriel": {
           "NPCName": "Gabriel",
           "Reactions": [
-
-            //Brave Little Sapling (ANIMATED) (FAMILY) (COMEDY)
             {
               "Tag": "spring_movie_0",
               "Response": "dislike",
@@ -278,7 +263,6 @@
               "ID": "reaction_0"
             },
 
-	    //Journey of the Praire King (VIDEOGAME)
             {
               "Tag": "summer_movie_0",
               "Response": "like",
@@ -303,7 +287,6 @@
               "ID": "reaction_1"
             },
 
-	//Mysterium (MINDMESS) (MYSTERY)
             {
               "Tag": "fall_movie_0",
               "Response": "love",
@@ -328,7 +311,6 @@
               "ID": "reaction_2"
             },
 
-	//Miracle at Coldstar Ranch (WHOLESOME) (TEAR JERKER) (FAMILY)
             {
               "Tag": "winter_movie_0",
               "Response": "like",
@@ -353,7 +335,6 @@
               "ID": "reaction_3"
             },
 
-	//Natural Wonders: Exploring Our Vibrant World (TOUR) (EDUCATIONAL)
             {
               "Tag": "spring_movie_1",
               "Response": "love",
@@ -378,7 +359,6 @@
               "ID": "reaction_4"
             },
 
-	//Wumbus (SCI-FI) (COMEDY)
             {
               "Tag": "summer_movie_1",
               "Response": "like",
@@ -403,7 +383,6 @@
               "ID": "reaction_5"
             },
 
-	//Howls in the Rain (HORROR)
             {
               "Tag": "fall_movie_1",
               "Response": "like",
@@ -428,7 +407,6 @@
               "ID": "reaction_6"
             },
 
-	//Zuzu City Express (CLASSIC) (ROMANCE)
             {
               "Tag": "winter_movie_1",
               "Response": "dislike",
@@ -452,17 +430,12 @@
               },
               "ID": "reaction_7"
             }
-
           ]
         },
 
-	//*******SILLY**********
-
-	"Silly": {
+        "Silly": {
           "NPCName": "Silly",
           "Reactions": [
-
-            //Brave Little Sapling (ANIMATED) (FAMILY) (COMEDY)
             {
               "Tag": "spring_movie_0",
               "Response": "love",
@@ -487,7 +460,6 @@
               "ID": "reaction_0"
             },
 
-	    //Journey of the Praire King (VIDEOGAME)
             {
               "Tag": "summer_movie_0",
               "Response": "like",
@@ -512,7 +484,6 @@
               "ID": "reaction_1"
             },
 
-	//Mysterium (MINDMESS) (MYSTERY)
             {
               "Tag": "fall_movie_0",
               "Response": "like",
@@ -537,7 +508,6 @@
               "ID": "reaction_2"
             },
 
-	//Miracle at Coldstar Ranch (WHOLESOME) (TEAR JERKER) (FAMILY)
             {
               "Tag": "winter_movie_0",
               "Response": "love",
@@ -562,7 +532,6 @@
               "ID": "reaction_3"
             },
 
-	//Natural Wonders: Exploring Our Vibrant World (TOUR) (EDUCATIONAL)
             {
               "Tag": "spring_movie_1",
               "Response": "like",
@@ -587,7 +556,6 @@
               "ID": "reaction_4"
             },
 
-	//Wumbus (SCI-FI) (COMEDY)
             {
               "Tag": "summer_movie_1",
               "Response": "like",
@@ -612,7 +580,6 @@
               "ID": "reaction_5"
             },
 
-	//Howls in the Rain (HORROR)
             {
               "Tag": "fall_movie_1",
               "Response": "dislike",
@@ -637,7 +604,6 @@
               "ID": "reaction_6"
             },
 
-	//Zuzu City Express (CLASSIC) (ROMANCE)
             {
               "Tag": "winter_movie_1",
               "Response": "like",
@@ -661,13 +627,9 @@
               },
               "ID": "reaction_7"
             }
-
           ]
-        },
-
-	},
-
-  },
-	
-]
+        }
+      }
+    }
+  ]
 }

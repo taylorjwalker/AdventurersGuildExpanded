@@ -1,84 +1,84 @@
 {
-   "Name": "Adventurer's Guild Expanded",
-   "Author": "SUPERT",
-   "Version": "1.0.15",
-   "Description": "An expansion for the adventurer's guild complete with quests, story events, new romanceable NPCs and the ability to befriend and recruit a friendly monster to live on your farm!",
-   "UniqueID": "supert.adventureguildexpanded",
-   "MinimumApiVersion": "2.0",
-   "UpdateKeys": ["Nexus:12102"],
-   "Dependencies": [
+  "Name": "Adventurer's Guild Expanded",
+  "Author": "SUPERT",
+  "Version": "1.0.16-unofficial.1-TaylorWalker",
+  "Description": "An expansion for the adventurer's guild complete with quests, story events, new romanceable NPCs and the ability to befriend and recruit a friendly monster to live on your farm!",
+  "UniqueID": "supert.adventureguildexpanded",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:12102"],
+  "Dependencies": [
     {
-	"UniqueID": "Esca.CustomNPCExclusions",
-	"IsRequired": true,
-	  		},
+      "UniqueID": "Esca.CustomNPCExclusions",
+      "IsRequired": true
+    },
     {
       "UniqueID": "supert.guildexpandedja",
       "IsRequired": true,
       "MinimumVersion": "1.0.2"
-   },
+    },
     {
       "UniqueID": "supert.guildexpandedsaat",
       "IsRequired": false,
       "MinimumVersion": "1.0.0"
-   },
-   {
+    },
+    {
       "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-      "IsRequired": false,
-   },
-   {
+      "IsRequired": false
+    },
+    {
       "UniqueID": "flashshifter.immersivefarm2remastered",
-      "IsRequired": false,
-   },
-   {
+      "IsRequired": false
+    },
+    {
       "UniqueID": "zander.immersivefarm2",
-      "IsRequired": false,
-   },
+      "IsRequired": false
+    },
     {
       "UniqueID": "flashshifter.GrandpasFarm",
-      "IsRequired": false,
-   },
-   {
+      "IsRequired": false
+    },
+    {
       "UniqueID": "MouseyPounds.ShadowFestival",
-      "IsRequired": false,
-   },
-   {
+      "IsRequired": false
+    },
+    {
       "UniqueID": "LemurKat.CleanerSewer.CP",
-      "IsRequired": false,
-   },
-   {
+      "IsRequired": false
+    },
+    {
       "UniqueID": "DTZ.DowntownZuzuCP",
-      "IsRequired": false,
-   },
-   {
+      "IsRequired": false
+    },
+    {
       "UniqueID": "Wolf.Marlon",
-      "IsRequired": false,
-   },
-   {
+      "IsRequired": false
+    },
+    {
       "UniqueID": "Yoshimax.BefriendMarlon",
-      "IsRequired": false,
-   },
-   {
+      "IsRequired": false
+    },
+    {
       "UniqueID": "Rafseazz.RSVCP",
-      "IsRequired": false,
-   },
-   {
+      "IsRequired": false
+    },
+    {
       "UniqueID": "Bouhm.NPCMapLocations",
-      "IsRequired": false,
-   },
-   {
+      "IsRequired": false
+    },
+    {
       "UniqueID": "Tarniyar.CP.WalkToDesert",
-      "IsRequired": false,
-   },
-   {
+      "IsRequired": false
+    },
+    {
       "UniqueID": "shekurika.EventLookup",
-      "IsRequired": false,
-   },
-{
+      "IsRequired": false
+    },
+    {
       "UniqueID": "spacechase0.JsonAssets",
-      "IsRequired": true,
-   },
-	],
-   "ContentPackFor": {
-      "UniqueID": "Pathoschild.ContentPatcher",
-   }
+      "IsRequired": true
+    }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
 }
