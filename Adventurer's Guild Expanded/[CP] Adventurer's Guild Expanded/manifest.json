@@ -5,7 +5,7 @@
   "Description": "An expansion for the adventurer's guild complete with quests, story events, new romanceable NPCs and the ability to befriend and recruit a friendly monster to live on your farm!",
   "UniqueID": "supert.adventureguildexpanded",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": ["Nexus:12102", "Nexus:22591"],
+  "UpdateKeys": ["Nexus:12102", "Nexus:22591", "GitHub:taylorjwalker/AdventurersGuildExpanded"],
   "Dependencies": [
     {
       "UniqueID": "Esca.CustomNPCExclusions",
