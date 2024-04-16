@@ -1,5 +1,6 @@
 {
   "Changes": [
+    //LOAD TILESHEETS
     {
       "Action": "Load",
       "Target": "Maps/silly_room",
@@ -36,6 +37,7 @@
       "FromFile": "assets/Maps/z_GabrielDateSky.png"
     },
 
+    //Monster House
     {
       "Action": "EditMap",
       "Target": "Maps/Farm",
@@ -166,6 +168,7 @@
       }
     },
 
+    //Grandpa's Farm
     {
       "Action": "EditMap",
       "Target": "Maps/Farm",
@@ -180,6 +183,7 @@
       }
     },
 
+    //IF2F
     {
       "Action": "EditMap",
       "Target": "Maps/zanderb14_IF2Fix",
@@ -194,6 +198,7 @@
       }
     },
 
+    //Guild Expansion
     {
       "Action": "EditMap",
       "Target": "Maps/AdventureGuild",
@@ -218,6 +223,7 @@
       }
     },
 
+    //Random Daniel Visits
     {
       "Action": "EditMap",
       "Target": "Maps/AdventureGuild",
@@ -230,6 +236,9 @@
       }
     },
 
+    //Silly's Room
+
+    //Zinnia Path
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_GE_MonsterResearchWing",
@@ -242,6 +251,7 @@
       }
     },
 
+    //Gabe Path
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_GE_MonsterResearchWing",
@@ -254,6 +264,7 @@
       }
     },
 
+    //other slimes
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_GE_MonsterResearchWing",
@@ -280,6 +291,7 @@
       }
     },
 
+    //lights
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_GE_MonsterResearchWing",
@@ -288,7 +300,7 @@
           "Operation": "Append",
           "Target": ["MapProperties", "Lights"],
           "Value": "16 1 4 19 1 4",
-          "Delimiter": " "
+          "Delimiter": " " // if there are already values, add a space between them and the new ones
         }
       ],
       "When": {
@@ -296,6 +308,7 @@
       }
     },
 
+    //FLOWER PARADISE
     {
       "Action": "EditMap",
       "Target": "Maps/Mine",
@@ -338,12 +351,16 @@
       }
     },
 
+    //SPOUSE ROOMS + PATIOS
+
+    // SpouseRoom
     {
       "Action": "Load",
       "Target": "Maps/GESpouseRooms",
       "FromFile": "assets/maps/GESpouseRooms.tbin"
     },
 
+    //Patios
     {
       "Action": "Load",
       "Target": "Maps/GESpousePatios",
@@ -378,6 +395,9 @@
       }
     },
 
+    //slime shrines
+
+    //petrified slime
     {
       "Action": "EditMap",
       "Target": "Maps/Sewer",
@@ -392,6 +412,7 @@
       }
     },
 
+    //midnight carp
     {
       "Action": "EditMap",
       "Target": "Maps/Sewer",
@@ -406,6 +427,7 @@
       }
     },
 
+    //sunflower
     {
       "Action": "EditMap",
       "Target": "Maps/Sewer",
@@ -420,6 +442,7 @@
       }
     },
 
+    //true slime energy
     {
       "Action": "EditMap",
       "Target": "Maps/Sewer",
@@ -434,6 +457,7 @@
       }
     },
 
+    //Daisy Shrine
     {
       "Action": "EditMap",
       "Target": "Maps/Mine",
@@ -447,6 +471,7 @@
       }
     },
 
+    //LOAD TEMP MAPS
     {
       "Action": "Load",
       "Target": "Maps/FlashbackMinesGE",
@@ -489,6 +514,7 @@
       "FromFile": "assets/Maps/GabrielDate.tbin"
     },
 
+    //STRINGS FROM MAPS
     {
       "Action": "EditData",
       "Target": "Strings/StringsFromMaps",
@@ -531,6 +557,9 @@
       }
     },
 
+    //WARPS FOR NPC PATHING
+
+    //Zinnia's Room
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_GE_ZinniaRoom",
@@ -540,6 +569,7 @@
       ]
     },
 
+    //Research Wing
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_GE_MonsterResearchWing",
@@ -550,6 +580,7 @@
       ]
     },
 
+    //Guild
     {
       "Action": "EditMap",
       "Target": "Maps/AdventureGuild",
@@ -558,11 +589,12 @@
           "Operation": "Append",
           "Target": ["MapProperties", "NPCWarp"],
           "Value": "15 13 Custom_GE_MonsterResearchWing 5 15",
-          "Delimiter": " "
+          "Delimiter": " " // if there are already values, add a space between them and the new ones
         }
       ]
     },
 
+    //Monster House
     {
       "Action": "EditMap",
       "Target": "Maps/BusStop",
@@ -574,11 +606,14 @@
           "Operation": "Append",
           "Target": ["MapProperties", "NPCWarp"],
           "Value": "10 22 Custom_GE_MonsterHouse 10 4",
-          "Delimiter": " "
+          "Delimiter": " " // if there are already values, add a space between them and the new ones
         }
       ]
     },
 
+    //SLEEP IN YOUR SO'S BED
+
+    //Gabriel
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_GE_ZinniaRoom",
@@ -597,6 +632,7 @@
       }
     },
 
+    //Zinnia
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_GE_ZinniaRoom",
@@ -615,7 +651,9 @@
       }
     },
 
+    //EVENT LOOKUP DISPLAYNAMES
     {
+      //Add "displayname" to locations
       "Action": "EditData",
       "Target": "Mods/shekurika.EventLookup/locationnames",
       "Entries": {
@@ -629,6 +667,7 @@
       }
     },
 
+    //NPC MAP LOCATIONS EDIT
     {
       "Action": "EditData",
       "Target": "Mods/Bouhm.NPCMapLocations/NPCs",

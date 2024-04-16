@@ -4,12 +4,12 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "Life Essence": "72 1 268 1 422 1/Field/Life_Essence/false/none",
-        "Slime Soul": "Slime_Gem 10 Life_Essence 1/Field/Slime_Soul/false/none",
-        "Frozen Slime Soul": "Slime_Soul 1 84 1 380 5/Field/Frozen_Slime_Soul/false/none",
-        "Fire Slime Soul": "Slime_Soul 1 82 1 384 5/Field/Fire_Slime_Soul/false/none",
-        "Slime Heart Seeds": "766 25 390 10/Field/Slime_Heart_Seeds/false/none",
-        "True Slime Energy": "Slime_Soul 1 Frozen_Slime_Soul 1 Fire_Slime_Soul 1 386 5/Field/True_Slime_Energy/false/none"
+        "Life Essence": "72 1 268 1 422 1/Field/{{spacechase0.JsonAssets/ObjectId:Life Essence}}/false/none",
+        "Slime Soul": "{{spacechase0.JsonAssets/ObjectId:Slime Gem}} 10 {{spacechase0.JsonAssets/ObjectId:Life Essence}} 1/Field/{{spacechase0.JsonAssets/ObjectId:Slime Soul}}/false/none",
+        "Frozen Slime Soul": "{{spacechase0.JsonAssets/ObjectId:Slime Soul}} 1 84 1 380 5/Field/{{spacechase0.JsonAssets/ObjectId:Frozen Slime Soul}}/false/none",
+        "Fire Slime Soul": "{{spacechase0.JsonAssets/ObjectId:Slime Soul}} 1 82 1 384 5/Field/{{spacechase0.JsonAssets/ObjectId:Fire Slime Soul}}/false/none",
+        "Slime Heart Seeds": "766 25 390 10/Field/{{spacechase0.JsonAssets/ObjectId:Slime Heart Seeds}}/false/none",
+        "True Slime Energy": "{{spacechase0.JsonAssets/ObjectId:Slime Soul}} 1 {{spacechase0.JsonAssets/ObjectId:Frozen Slime Soul}} 1 {{spacechase0.JsonAssets/ObjectId:Fire Slime Soul}} 1 386 5/Field/{{spacechase0.JsonAssets/ObjectId:True Slime Energy}}/false/none"
       }
     }
   ]

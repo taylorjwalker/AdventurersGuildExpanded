@@ -1,5 +1,6 @@
 {
   "Changes": [
+    //NPC Dispositions
     {
       "LogName": "NPC Dispositions",
       "Action": "EditData",
@@ -13,12 +14,15 @@
       }
     },
 
+    //LOAD EMPTY JSONS
     {
       "LogName": "Load Empty Json Dialogues",
       "Action": "Load",
       "Target": "Characters/Dialogue/Zinnia, Characters/Dialogue/Gabriel, Characters/Dialogue/MarriageDialogueZinnia, Characters/Dialogue/MarriageDialogueGabriel, Characters/schedules/Gabriel, Strings/schedules/Gabriel, Characters/schedules/Zinnia, Strings/schedules/Zinnia",
       "FromFile": "data/empty.json"
     },
+
+    //SPOUSE ROOMS/PATIOS
 
     {
       "Action": "EditData",
@@ -29,6 +33,7 @@
       }
     },
 
+    //Register patios
     {
       "Action": "EditData",
       "Target": "Data/SpousePatios",
@@ -37,6 +42,8 @@
         "Gabriel": "GESpousePatios/1/23 23 23/-5 2"
       }
     },
+
+    //*** GABRIEL ****
 
     {
       "LogName": "Gabriel Reg Sprites",
@@ -99,6 +106,8 @@
       "FromFile": "data/NPCData/Gabriel/schedule.json"
     },
 
+    //**** ZINNIA *****
+
     {
       "LogName": "Zinnia Reg Sprites",
       "Action": "Load",
@@ -160,6 +169,8 @@
       "FromFile": "data/NPCData/Zinnia/schedule.json"
     },
 
+    //*** DANIEL (NON SOCIAL NPC AS OF 1.0.0) ****
+
     {
       "LogName": "Daniel Sprites",
       "Action": "Load",
@@ -181,6 +192,8 @@
       "FromFile": "assets/Maps/Daniel.png"
     },
 
+    //*** DAISY (NON SOCIAL NPC) ****
+
     {
       "LogName": "Daisy Sprites",
       "Action": "Load",
@@ -194,6 +207,8 @@
       "Target": "Portraits/Daisy",
       "FromFile": "assets/Portraits/Daisy.png"
     },
+
+    //ANIMATIONS
 
     {
       "Action": "Load",

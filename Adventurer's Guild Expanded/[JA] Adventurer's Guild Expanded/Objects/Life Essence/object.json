@@ -17,11 +17,27 @@
     "Attack": 0,
     "Duration": 500
   },
-
-  "CanPurchase": true,
-  "PurchaseFrom": "Marlon",
-  "PurchasePrice": 0,
-  "PurchaseRequirements": ["Hn GErecipes1"],
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Diamond",
+        "Count": 1
+      },
+      {
+        "Object": 268,
+        "Count": 1
+      },
+      {
+        "Object": 422,
+        "Count": 1
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 0,
+    "PurchaseRequirements": ["Hn GErecipes1"]
+  },
   "CanSell": true,
   "Price": 2500,
   "IsColored": false,

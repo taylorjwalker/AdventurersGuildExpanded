@@ -1,3 +1,8 @@
+VERSION 1.0.16-unofficial.2-TaylorWalker // UNRELEASED
+
+- Reverted `{{spacechase0.JsonAssets/...}}` replacement described by LikeFrogs on Nexus Mods
+- Reverted "Removed all comments from JSON files"
+
 VERSION 1.0.16-unofficial.1-TaylorWalker // UNRELEASED
 
 - Applied patches described by LikeFrogs on Nexus Mods (https://www.nexusmods.com/stardewvalley/mods/12102?tab=posts)

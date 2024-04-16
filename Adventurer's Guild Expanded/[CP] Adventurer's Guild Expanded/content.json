@@ -1,6 +1,8 @@
 ﻿{
   "Format": "1.25",
 
+  //Configuration
+
   "ConfigSchema": {
     "AllowFestivals": {
       "AllowValues": "true, false",
@@ -16,11 +18,14 @@
   },
 
   "DynamicTokens": [
+    //Daniel's Random Visits
+
     {
       "Name": "DanielVisit",
       "Value": "{{Random: true, false, false, false, false, false, false, false, false, false}}"
     },
 
+    //Custom Music Tokens (Changes if SAAT installed)
     {
       "Name": "GabrielTheme",
       "Value": "kindadumbautumn",
@@ -117,11 +122,14 @@
       }
     },
 
+    //SVE Spirit's Eve Fix
+
     {
       "Name": "IsOddYear",
       "Value": "{{Query: {{Year}} % 2 = 1}}"
     },
 
+    //Monster House
     {
       "Name": "sillyMovedIn",
       "Value": "false"
@@ -143,6 +151,7 @@
       }
     },
 
+    //sewer map changes
     {
       "Name": "sewerChanges",
       "Value": "true"
@@ -157,6 +166,7 @@
       }
     },
 
+    //c
     {
       "Name": "ccOrjoja",
       "Value": "false"
@@ -180,26 +190,31 @@
   ],
 
   "CustomLocations": [
+    // Monster House
     {
       "Name": "Custom_GE_MonsterHouse",
       "FromMapFile": "assets/Maps/MonsterHouse.tbin"
     },
 
+    //Guild Expansion
     {
       "Name": "Custom_GE_MonsterResearchWing",
       "FromMapFile": "assets/Maps/MonsterResearchWing.tmx"
     },
 
+    //Zinnia/Gabriel's Room
     {
       "Name": "Custom_GE_ZinniaRoom",
       "FromMapFile": "assets/Maps/ZinniaRoom.tmx"
     },
 
+    //Flower Paradise
     {
       "Name": "Custom_GE_FlowerParadise",
       "FromMapFile": "assets/Maps/FlowerParadise.tbin"
     },
 
+    //Zinnia Field
     {
       "Name": "Custom_GE_ZinniaField",
       "FromMapFile": "assets/Maps/ZinniaField.tbin"

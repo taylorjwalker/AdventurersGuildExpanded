@@ -7,13 +7,13 @@
         {
           "Operation": "Append",
           "Target": ["Entries", "Universal_Like"],
-          "Value": "Life_Essence Slime_Heart Zinnia",
+          "Value": "{{spacechase0.JsonAssets/ObjectId:Life Essence}} {{spacechase0.JsonAssets/ObjectId:Slime Heart}} {{spacechase0.JsonAssets/ObjectId:Zinnia}}",
           "Delimiter": " "
         },
         {
           "Operation": "Append",
           "Target": ["Entries", "Universal_Dislike"],
-          "Value": "Slime_Gem Slime_Soul Slime_Heart_Seeds Zinnia_Seeds Frozen_Slime_Soul Fire_Slime_Soul True_Slime_Energy",
+          "Value": "{{spacechase0.JsonAssets/ObjectId:Slime Gem}} {{spacechase0.JsonAssets/ObjectId:Slime Soul}} {{spacechase0.JsonAssets/ObjectId:Slime Heart Seeds}} {{spacechase0.JsonAssets/ObjectId:Zinnia Seeds}} {{spacechase0.JsonAssets/ObjectId:Frozen Slime Soul}} {{spacechase0.JsonAssets/ObjectId:Fire Slime Soul}} {{spacechase0.JsonAssets/ObjectId:True Slime Energy}}",
           "Delimiter": " "
         }
       ]

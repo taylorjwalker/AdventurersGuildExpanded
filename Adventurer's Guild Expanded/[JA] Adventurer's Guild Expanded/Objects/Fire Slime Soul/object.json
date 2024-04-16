@@ -17,11 +17,27 @@
     "Attack": 2,
     "Duration": 500
   },
-
-  "CanPurchase": true,
-  "PurchaseFrom": "Marlon",
-  "PurchasePrice": 0,
-  "PurchaseRequirements": ["Hn choseGabe"],
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Slime Soul",
+        "Count": 1
+      },
+      {
+        "Object": "Fire Quartz",
+        "Count": 1
+      },
+      {
+        "Object": "Gold Ore",
+        "Count": 5
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 0,
+    "PurchaseRequirements": ["Hn choseGabe"]
+  },
   "CanSell": true,
   "Price": 4235,
   "IsColored": false,

@@ -1,10 +1,14 @@
 {
   "Changes": [
+    //****************************
+    //******* EGG FESTIVAL *******
+    //****************************
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true" },
       "Target": "Data/Festivals/spring13",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -12,6 +16,7 @@
           "Delimiter": "/"
         },
 
+        //Main Event
         {
           "Operation": "Append",
           "Target": ["Entries", "MainEvent_additionalCharacters"],
@@ -34,11 +39,13 @@
       }
     },
 
+    //SILLY
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true" },
       "Target": "Data/Festivals/spring13",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -46,6 +53,7 @@
           "Delimiter": "/"
         },
 
+        //Main Event
         {
           "Operation": "Append",
           "Target": ["Entries", "MainEvent_additionalCharacters"],
@@ -65,11 +73,15 @@
       }
     },
 
+    //****************************
+    //******* FLOWER DANCE *******
+    //****************************
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true" },
       "Target": "Data/Festivals/spring24",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -77,6 +89,7 @@
           "Delimiter": "/"
         },
 
+        //Main Event
         {
           "Operation": "Append",
           "Target": ["Entries", "MainEvent_additionalCharacters"],
@@ -98,11 +111,13 @@
       }
     },
 
+    //SILLY
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true" },
       "Target": "Data/Festivals/spring24",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -110,6 +125,7 @@
           "Delimiter": "/"
         },
 
+        //Main Event
         {
           "Operation": "Append",
           "Target": ["Entries", "MainEvent_additionalCharacters"],
@@ -128,11 +144,15 @@
       }
     },
 
+    //****************************
+    //*********** LUAU ***********
+    //****************************
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true" },
       "Target": "Data/Festivals/summer11",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -140,6 +160,7 @@
           "Delimiter": "/"
         },
 
+        //Main Event
         {
           "Operation": "Append",
           "Target": ["Entries", "MainEvent_additionalCharacters"],
@@ -161,11 +182,13 @@
       }
     },
 
+    //SILLY
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true" },
       "Target": "Data/Festivals/summer11",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -173,6 +196,7 @@
           "Delimiter": "/"
         },
 
+        //Main Event
         {
           "Operation": "Append",
           "Target": ["Entries", "MainEvent_additionalCharacters"],
@@ -191,11 +215,16 @@
       }
     },
 
+    //****************************
+    //***** MOONLIGHT JELLIES ****
+    //****************************
+
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true" },
       "Target": "Data/Festivals/summer28",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -217,11 +246,13 @@
       }
     },
 
+    //SILLY
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true" },
       "Target": "Data/Festivals/summer28",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -240,11 +271,16 @@
       }
     },
 
+    //****************************
+    //*** STARDEW VALLEY FAIR ****
+    //****************************
+
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true" },
       "Target": "Data/Festivals/fall16",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -266,11 +302,13 @@
       }
     },
 
+    //SILLY
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true" },
       "Target": "Data/Festivals/fall16",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -289,6 +327,10 @@
       }
     },
 
+    //****************************
+    //******* SPIRIT'S EVE *******
+    //****************************
+
     {
       "Action": "EditData",
       "When": {
@@ -297,6 +339,7 @@
       },
       "Target": "Data/Festivals/fall27",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -315,6 +358,7 @@
       },
       "Target": "Data/Festivals/fall27",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -333,6 +377,7 @@
       },
       "Target": "Data/Festivals/fall27",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -354,6 +399,7 @@
       }
     },
 
+    //SILLY
     {
       "Action": "EditData",
       "When": {
@@ -362,6 +408,7 @@
       },
       "Target": "Data/Festivals/fall27",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -380,6 +427,7 @@
       },
       "Target": "Data/Festivals/fall27",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -398,6 +446,7 @@
       },
       "Target": "Data/Festivals/fall27",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -416,11 +465,15 @@
       }
     },
 
+    //****************************
+    //***** FESTIVAL OF ICE ******
+    //****************************
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true" },
       "Target": "Data/Festivals/winter8",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -428,6 +481,7 @@
           "Delimiter": "/"
         },
 
+        //Main Event
         {
           "Operation": "Append",
           "Target": ["Entries", "Main-Event_additionalCharacters"],
@@ -449,11 +503,13 @@
       }
     },
 
+    //SILLY
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true" },
       "Target": "Data/Festivals/winter8",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -461,6 +517,7 @@
           "Delimiter": "/"
         },
 
+        //Main Event
         {
           "Operation": "Append",
           "Target": ["Entries", "Main-Event_additionalCharacters"],
@@ -479,11 +536,16 @@
       }
     },
 
+    //****************************
+    //* FEAST OF THE WINTER STAR *
+    //****************************
+
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true" },
       "Target": "Data/Festivals/winter25",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],
@@ -505,11 +567,13 @@
       }
     },
 
+    //SILLY
     {
       "Action": "EditData",
       "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true" },
       "Target": "Data/Festivals/winter25",
       "TextOperations": [
+        //SetUp
         {
           "Operation": "Append",
           "Target": ["Entries", "Set-Up_additionalCharacters"],

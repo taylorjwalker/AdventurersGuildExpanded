@@ -17,11 +17,27 @@
     "Attack": 0,
     "Duration": 500
   },
-
-  "CanPurchase": true,
-  "PurchaseFrom": "Marlon",
-  "PurchasePrice": 0,
-  "PurchaseRequirements": ["Hn choseGabe"],
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Slime Soul",
+        "Count": 1
+      },
+      {
+        "Object": "Frozen Tear",
+        "Count": 1
+      },
+      {
+        "Object": "Iron Ore",
+        "Count": 5
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 0,
+    "PurchaseRequirements": ["Hn choseGabe"]
+  },
   "CanSell": true,
   "Price": 4125,
   "IsColored": false,

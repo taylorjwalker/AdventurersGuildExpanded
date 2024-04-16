@@ -17,11 +17,31 @@
     "Attack": 1,
     "Duration": 500
   },
-
-  "CanPurchase": true,
-  "PurchaseFrom": "Marlon",
-  "PurchasePrice": 0,
-  "PurchaseRequirements": ["Hn gabePathEnd"],
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Slime Soul",
+        "Count": 1
+      },
+      {
+        "Object": "Frozen Slime Soul",
+        "Count": 1
+      },
+      {
+        "Object": "Fire Slime Soul",
+        "Count": 1
+      },
+      {
+        "Object": "Iridium Ore",
+        "Count": 5
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 0,
+    "PurchaseRequirements": ["Hn gabePathEnd"]
+  },
   "CanSell": true,
   "Price": 13995,
   "IsColored": false,

@@ -17,11 +17,23 @@
     "Attack": 1,
     "Duration": 500
   },
-
-  "CanPurchase": true,
-  "PurchaseFrom": "Marlon",
-  "PurchasePrice": 0,
-  "PurchaseRequirements": ["Hn GErecipes1"],
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Slime Gem",
+        "Count": 10
+      },
+      {
+        "Object": "Life Essence",
+        "Count": 1
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 0,
+    "PurchaseRequirements": ["Hn GErecipes1"]
+  },
   "CanSell": true,
   "Price": 4000,
   "IsColored": false,

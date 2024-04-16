@@ -1,11 +1,11 @@
 {
   "Name": "Adventurer's Guild Expanded",
   "Author": "SUPERT",
-  "Version": "1.0.16-unofficial.1-TaylorWalker",
+  "Version": "1.0.16-unofficial.2-TaylorWalker",
   "Description": "An expansion for the adventurer's guild complete with quests, story events, new romanceable NPCs and the ability to befriend and recruit a friendly monster to live on your farm!",
   "UniqueID": "supert.adventureguildexpanded",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": ["Nexus:12102"],
+  "UpdateKeys": ["Nexus:12102", "Nexus:22591"],
   "Dependencies": [
     {
       "UniqueID": "Esca.CustomNPCExclusions",
@@ -75,7 +75,13 @@
     },
     {
       "UniqueID": "spacechase0.JsonAssets",
-      "IsRequired": true
+      "IsRequired": true,
+      "MinimumVersion": "1.11.7"
+    },
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true,
+      "MinimumVersion": "2.0.6"
     }
   ],
   "ContentPackFor": {
